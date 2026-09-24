@@ -18,13 +18,13 @@
         compatible = "zmk,combos";
 
         comb1 {
-            bindings = <&kp TAB>;
-            key-positions = <11 10>;
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
         };
 
         comb2 {
-            bindings = <&kp LS(ESCAPE)>;
-            key-positions = <0 1>;
+            bindings = <&mkp MB2>;
+            key-positions = <20 21>;
         };
 
         comb3 {
@@ -129,10 +129,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W    &kp E             &kp R         &kp T                                                      &kp Y          &kp U  &kp I      &kp O       &kp P
-&kp F       &kp A    &kp S             &kp D         &kp G         &to 1                 &kp MINUS              &kp H          &kp J  &kp K      &kp L       &kp ENTER
-&kp X       &kp C    &kp V             &kp Z         &kp B         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE           &lt 2 ENTER            &kp BACKSPACE                                &kp LEFT_SHIFT
+&kp Q       &kp W    &kp E         &kp R             &kp T                                                      &kp Y          &kp U  &kp I      &kp O       &kp P
+&kp F       &kp A    &kp S         &kp D             &kp G         &to 1                 &kp MINUS              &kp H          &kp J  &kp K      &kp L       &kp SEMICOLON
+&kp X       &kp C    &kp V         &kp Z             &kp B         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp ESCAPE  &kp TAB  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE           &lt 2 ENTER            &kp BACKSPACE                                &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&scroll_move_y>;
@@ -173,10 +173,10 @@
 
         MOUSE {
             bindings = <
-&kp Q       &kp W    &kp E             &kp R         &kp T                              &kp Y          &kp U  &kp I     &kp O        &kp P
-&kp A       &kp S    &kp D             &kp F         &kp G      &kp N1     &kp N2       &kp H          &kp J  &mkp MB1  &mkp MB2     &kp ENTER
-&kp Z       &kp X    &kp C             &kp V         &kp B      &kp N3     &kp N4       &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE  &kp ENTER  &lt 2 SPACE  &kp BACKSPACE                                &kp LEFT_SHIFT
+&trans      &trans   &trans        &trans            &trans                                &trans         &trans  &trans  &trans  &trans
+&trans      &trans   &trans        &trans            &trans        &trans     &trans       &trans         &trans  &trans  &trans  &trans
+&trans      &trans   &trans        &trans            &trans        &trans     &trans       &trans         &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp TAB  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &lt 2 ENTER  &kp BACKSPACE                          &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
