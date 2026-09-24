@@ -28,13 +28,13 @@
         };
 
         comb3 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <22 23>;
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <27 26>;
         };
 
         comb4 {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <28 29>;
         };
 
         comb5 {
