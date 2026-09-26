@@ -37,13 +37,6 @@
             key-positions = <28 29>;
         };
 
-        comb5 {
-            bindings = <&mkp MB3>;
-            key-positions = <18 19>;
-            timeout-ms = <0>;
-            layers = <2>;
-        };
-
         MS_BTN1_ {
             bindings = <&mkp MB1>;
             key-positions = <38 39>;
