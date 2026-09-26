@@ -135,7 +135,7 @@
 &kp ESCAPE  &kp TAB  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE       &lt 2 ENTER       &kp BACKSPACE                                &kp LEFT_SHIFT
             >;
 
-            sensor-bindings = <&scroll_move_y>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
