@@ -39,7 +39,7 @@
 
         comb5 {
             bindings = <&mkp MB3>;
-            key-positions = <6 7>;
+            key-positions = <18 19>;
             timeout-ms = <0>;
             layers = <2>;
         };
