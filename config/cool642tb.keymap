@@ -24,7 +24,7 @@
 
         comb2 {
             bindings = <&mkp MB2>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
 
         comb3 {
@@ -37,14 +37,9 @@
             key-positions = <28 29>;
         };
 
-        MS_BTN1_ {
-            bindings = <&mkp MB1>;
-            key-positions = <38 39>;
-        };
-
-        MS_BTN2_ {
-            bindings = <&mkp MB2>;
-            key-positions = <38 37>;
+        ls4 {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <34 35>;
         };
     };
 
@@ -122,7 +117,7 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W    &kp E         &kp R             &kp T                                             &kp Y          &kp U  &lt 5 I    &kp O       &kp P
+&kp Q       &kp W    &kp E         &kp R             &kp T                                             &kp Y          &kp U  &kp I      &kp O       &kp P
 &kp F       &kp A    &kp S         &kp D             &kp G         &to 1             &kp MINUS         &kp H          &kp J  &kp K      &kp L       &kp SEMICOLON
 &kp X       &kp C    &kp V         &kp Z             &kp B         &kp LS(NUMBER_8)  &kp RS(NUMBER_9)  &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp ESCAPE  &kp TAB  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 SPACE       &lt 2 ENTER       &kp BACKSPACE                                &kp LEFT_SHIFT
@@ -177,10 +172,10 @@
 
         SCROLL {
             bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
+&kp Q    &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
+&kp A    &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
+&kp Z    &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
+&kp ESC  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
